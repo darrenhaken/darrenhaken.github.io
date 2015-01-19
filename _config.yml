@@ -8,7 +8,7 @@ theme:
   # Meta
   title: Darren Haken - All things developer and lean
   avatar: avatar.png
-  gravatar: # email md5 hash
+  gravatar: f0ab3db26bd3b23205db53754395894a
   description: "Software developer, lean, agile, XP, devops" # used by search engines
   
   # Header and footer text
