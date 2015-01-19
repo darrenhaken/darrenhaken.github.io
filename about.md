@@ -2,10 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+feature-img: "img/sample_feature_img_2.png"
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Passionate software consultant, skilled in analysis, design and development of enterprise and web applications.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Working with organisations to change their software delivery using agile methodologies, test driven development, continuous delivery and other XP practices to help meet market demands and deliver high quality software.
