@@ -6,17 +6,16 @@ timezone: "Europe/London"
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Darren Haken - All things developer and lean
+  title: All things developer and lean
   avatar: avatar.png
   gravatar: f0ab3db26bd3b23205db53754395894a
   description: "Software developer, lean, agile, XP, devops" # used by search engines
   
   # Header and footer text
   header_text: >
-     <p>Software developer, fitness mad, movie and coffee addict!</p>
+     <p>Software developer, fitness mad, movie buff and coffee addict!</p>
      <p>Works @ThoughtWorks</p>
      <p>Blogging about technology and all things lean</p>
-
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>
   
@@ -43,8 +42,8 @@ theme:
   youtube: 
   
   # Scripts
-  google_analytics: # tracking id, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-58893620-1"
+  disqus_shortname: "darren-haken-software-blog.disqus.com"
   
   # Localization strings
   str_follow_on: "Follow on"
