@@ -9,8 +9,8 @@ But how does a team begin to make this part of their DNA?
 A business philosophy formed in Japan by Toyota, Kaizen literally means *"continuous improvement"*.
 This really resonates with me, I firmly believe if we aren't trying to improve ourselves then we risk becoming complacent and inevitably slowing down our progress.
 
-This is a full team effort! In Toyota participation is close to 100 percent with each employee expected to offer at least one suggestion per year for improvement.
-Without experimenting and taking risks to improve, we miss potential opportunities for greatness.
+This is of course a full team effort! In Toyota participation is close to 100 percent with each employee expected to offer at least one suggestion per year for improvement.
+Without experimenting and taking risks to improve, we may miss potential opportunities for greatness.
 Even if things don't quite work out as we planned, failure is still an opportunity to learn for our next experiment!
 
 In the software world I've seen teams embrace Kaizen in many ways including:
@@ -42,17 +42,16 @@ By visualising your value stream you can:
 The last point is key here, I want as many opportunities as I can to see how our next experiment impacts the project.
 
 ##### Why the sustainable pace, shouldn't I be working at my full capacity?
-I've often seen teams become obsessed with 100% utilisation, largely due to focusing on velocity as the means of measuring the teams success.
+I've often seen teams become obsessed with 100% utilisation, sometimes a side effect of focusing on velocity as the means of measuring the teams success.
 However this comes at a price, flexibility. If the team is maxed out they can't quickly respond to change, they already have too much to handle!
 
-We need to control the amount of work flowing through the system to match the teams capacity.
-Kanban is often used hand-in-hand with Kaizen and focuses on *limiting your work in progress (WIP)*.
+Alternatively we could control the amount of work flowing through the value stream to match the teams capacity.
+Kanban is a great system to do this and often refers to this as *limiting your work in progress (WIP)*.
 
-The project board shows WIP limits as red bars marked below each column of the value stream.
+The project board above shows WIP limits for each column of our value stream, indicated by red bars marked below the columns.
 For example there is a limit of 2 features that can be implemented concurrently in development, which matches to the two developer pairs on the project.
 
-Controlling WIP allows the opportunity to control demand (only slightly!) and allocate time to incorporate experiments into the team.
-
+Controlling WIP allows the opportunity to reduce the demand (only slightly!) and introduce slack to incorporate experiments into the team.
 For example what if the developers could have an afternoon per week where they reached out for feedback from our users?
 We can then incorporate what we learn into future development, we might even increase our user base.
 It might sound crazy but experiments like this are often breakthroughs for the project.
@@ -60,13 +59,19 @@ It might sound crazy but experiments like this are often breakthroughs for the p
 [More information on Kanban](https://www.google.com)
 
 ### Measuring is key
-To understand the impact to change, we need to measure and validate our successes and failures.
-Remember failures are also another opportunity and learn with our next experiment!
+To understand the impact our changes make we need to measure, validating our successes and failures.
+Remember failures are also another opportunity to learn for our next experiment!
+Before starting your Kaizen journey I'd recommend initially gathering measurements which this will act as your baseline.
+Like any experiment we need a baseline to understand what difference you've made and validate if your hypothesis was correct.
 
-I'll focus here on the goal of delivering faster which in Kanban is usually tracked using lead time (also known as cycle time) of a feature.
+Lets focus on one way we might measure how quickly we deliver and the improvements we could try to make to improve it.
+
+###Cycle Time
+In Kanban delivering faster which in Kanban is usually tracked using lead time (also known as cycle time) of a feature.
 
 [Find more information on lead time](http://www.thoughtworks.com/insights/blog/feeling-slow-use-lead-time-find-out-why)
 
 ###Final Thoughts
+Note: Fill this in
 Embrace Kaizen and tell me in the comments below some of the breakthroughs you've had by trying it.
 In future posts I'll cover some of the experiments I've observed.
