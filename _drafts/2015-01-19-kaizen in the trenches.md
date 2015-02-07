@@ -9,7 +9,7 @@ But how does a team begin to make this part of their DNA?
 A business philosophy formed in Japan by Toyota, Kaizen literally means *"continuous improvement"*.
 This really resonates with me, I firmly believe if we aren't trying to improve ourselves then we risk becoming complacent and inevitably slowing down our progress.
 
-This is of course a full team effort! In Toyota participation is close to 100 percent with each employee expected to offer at least one suggestion per year for improvement.
+This is full team effort! In Toyota participation is close to 100 percent with each employee expected to offer at least one suggestion per year for improvement.
 Without experimenting and taking risks to improve, we may miss potential opportunities for greatness.
 Even if things don't quite work out as we planned, failure is still an opportunity to learn for our next experiment!
 
@@ -59,19 +59,15 @@ It might sound crazy but experiments like this are often breakthroughs for the p
 [More information on Kanban](https://www.google.com)
 
 ### Measuring is key
-To understand the impact our changes make we need to measure, validating our successes and failures.
-Remember failures are also another opportunity to learn for our next experiment!
-Before starting your Kaizen journey I'd recommend initially gathering measurements which this will act as your baseline.
-Like any experiment we need a baseline to understand what difference you've made and validate if your hypothesis was correct.
-
-Lets focus on one way we might measure how quickly we deliver and the improvements we could try to make to improve it.
+To understand the impact our changes have on the project it's important to measure our progress and understand our successes and failures.
+Remember failures are another opportunity to learn for our next experiment!
+Before starting your Kaizen journey, gather measurements of your project to act as your baseline.
+We need a baseline to understand what impact we've had and validate whether the hypothesis was correct.
 
 ###Cycle Time
-In Kanban delivering faster which in Kanban is usually tracked using lead time (also known as cycle time) of a feature.
+Lets focus on one way we might strive for faster delivery.
+
+First we need to establish a baseline for how fast we are currently delivering features.
+We can measure this using cycle time (a common measurement in Kanban), which is how long a feature takes to finish from the beginning of our value stream to the end. Using the project board above, the number of days on average for features to go from 'Next' to 'Live'.
 
 [Find more information on lead time](http://www.thoughtworks.com/insights/blog/feeling-slow-use-lead-time-find-out-why)
-
-###Final Thoughts
-Note: Fill this in
-Embrace Kaizen and tell me in the comments below some of the breakthroughs you've had by trying it.
-In future posts I'll cover some of the experiments I've observed.
