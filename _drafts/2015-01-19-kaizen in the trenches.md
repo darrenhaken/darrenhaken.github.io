@@ -8,18 +8,17 @@ Over the last few years I've worked with many teams and fully embraced the agile
 It's been a roller coaster of a journey but I have to say I've loved every minute of it!
 
 Most teams generally start by adopting Scrum as their new project management process.
-This means delivering in iterations, common cadences including daily stand ups and retrospectives but most importantly higher collaboration across the team.
+This means delivering in iterations, cadences such as daily stand ups and retrospectives but most importantly higher collaboration across the team.
 However I often start to get a niggling voice in the back of my mind once the team starts to stabilise with their process.
 I often feel we've moved to a ‘water-scrum-fall’ methodology whereby we're simply delivering in smaller chunks but without everything else the agile manifesto promised.
 
-Worst of all it seems that typically value is measured by the rate at which we deliver.
 We should be asking questions like:
 
 Are we even delivering the right thing?
 
 By delivering smaller chunks of software are we delivering value sooner?
 
-What's slowing us down?
+What's slowing us down and blocking us?
 
 I started to think there must be more to agile than what Scrum originally promised.
 
@@ -42,9 +41,6 @@ I've seen teams embrace Kaizen in many ways including:
 * Increased customer satisfaction
 * Faster recovery from disasters
 * Elimination of waste which impedes delivery
-
-### The pain
-Talk about pain points and why this might help
 
 ### Adopting Kaizen
 To really help with adopting, try and *visualise your process* and also strive for a *sustainable pace* at delivering software.
@@ -88,3 +84,5 @@ To understand the impact our changes have on the project it's important to measu
 Remember failures are another opportunity to learn for our next experiment!
 Before starting your Kaizen journey, gather measurements of your project to act as your baseline.
 We need a baseline to understand what impact we've had and validate whether the hypothesis was correct.
+
+In future posts I'll discuss some of the Kaizen moments I've witnessed on projects.
