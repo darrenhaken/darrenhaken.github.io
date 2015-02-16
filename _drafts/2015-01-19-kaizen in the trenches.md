@@ -1,16 +1,37 @@
 ---
 layout: post
-title: Kaizen 101
+title: Kaizen 101 - From manufacturing to agile
 description: Agile, Lean
 ---
-A super star team is disruptive, continually evolving and acting quickly to identify waste.
+
+Over the last few years I've worked with many teams and fully embraced the agile mindset.
+It's been a roller coaster of a journey but I have to say I've loved every minute of it!
+
+Most teams generally start by adopting Scrum as their new project management process.
+This means delivering in iterations, common cadences including daily stand ups and retrospectives but most importantly higher collaboration across the team.
+However I often start to get a niggling voice in the back of my mind once the team starts to stabilise with their process.
+I often feel we've moved to a ‘water-scrum-fall’ methodology whereby we're simply delivering in smaller chunks but without everything else the agile manifesto promised.
+
+Worst of all it seems that typically value is measured by the rate at which we deliver.
+We should be asking questions like:
+
+Are we even delivering the right thing?
+
+By delivering smaller chunks of software are we delivering value sooner?
+
+What's slowing us down?
+
+I started to think there must be more to agile than what Scrum originally promised.
+
+### Enter Kaizen
+A super star team needs to be disruptive, continually evolving and acting quickly to identify waste.
 But how does a team begin to make this part of their DNA?
 
-### Kaizen
 A business philosophy formed in Japan by Toyota, Kaizen means *"continuous improvement"*.
 This ideology really resonates with me, I firmly believe if we aren't trying to improve ourselves then we risk becoming complacent and inevitably slowing down our progress.
 
-It's important to realise this is a full team effort! In Toyota participation is close to 100 percent with each employee expected to offer at least one suggestion per year for improvement.
+It's important to realise this is a full team effort! In Toyota participation is close to 100 percent
+with each employee expected to offer at least one suggestion per year for improvement.
 Without experimenting and taking risks to improve, we may miss potential opportunities for greatness.
 Even if things don't quite work out as we planned, failure is still an opportunity to learn for our next experiment!
 
