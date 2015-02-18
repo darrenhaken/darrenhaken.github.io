@@ -2,6 +2,10 @@
 layout: post
 title: Kaizen 101 - From Scrum to Kanban
 description: Agile, Lean
+image:      your post image path # /assets/img/image.jpg
+excerpt:    "Moving from Scrum to Kanban using Kaizen" # Optional for overring content excerpt
+categories: ["agile"] - best is to have one category in a post
+tags:       ["agile", "lean", "kanban"]
 ---
 
 Over the last few years I've worked with many teams and fully embraced the agile mindset.
