@@ -9,8 +9,8 @@ theme:
   title: All things developer and lean
   avatar: avatar.png
   gravatar: f0ab3db26bd3b23205db53754395894a
-  description: "Software developer, lean, agile, XP, devops" # used by search engines
-  
+  description: "Software developer, lean, agile, XP, devops, TDD, Kanban" # used by search engines
+
   # Header and footer text
   header_text: >
      <p>Software developer, fitness mad, movie buff and coffee addict!</p>
@@ -18,33 +18,33 @@ theme:
      <p>Blogging about technology and all things lean</p>
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a>
-  
+
   # Icons
   rss: false
   email_address: darrenhaken@gmail.com
   behance:
-  bitbucket: 
-  dribbble: 
-  facebook: 
-  flickr: 
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
   github: "darrenhaken"
-  google_plus: 
-  instagram: 
+  google_plus:
+  instagram:
   linkedin: "https://www.linkedin.com/in/darrenhaken"
-  pinterest: 
-  reddit: 
-  soundcloud: 
+  pinterest:
+  reddit:
+  soundcloud:
   stack_exchange:  # full URL
-  steam: 
-  tumblr: 
+  steam:
+  tumblr:
   twitter: "https://twitter.com/darrenhaken"
-  wordpress: 
-  youtube: 
-  
+  wordpress:
+  youtube:
+
   # Scripts
   google_analytics: "UA-58893620-1"
   disqus_shortname: "darren-haken-software-blog.disqus.com"
-  
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -52,7 +52,7 @@ theme:
   str_next: "Next"
   str_prev: "Prev"
   str_continue_reading: "Continue reading"
-  
+
   # Colors, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
