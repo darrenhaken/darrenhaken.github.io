@@ -16,8 +16,7 @@ theme:
      <p>Software developer, fitness mad, movie buff and coffee addict!</p>
      <p>Works @ThoughtWorks</p>
      <p>Blogging about technology and all things lean</p>
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a>
+  footer_text:
 
   # Icons
   rss: false
