@@ -2,9 +2,8 @@
 layout: post
 title: Kaizen 101 - From Scrum to Kanban
 description: Agile, Lean
-image:      your post image path # /assets/img/image.jpg
-excerpt:    "Moving from Scrum to Kanban using Kaizen" # Optional for overring content excerpt
-categories: ["agile"] - best is to have one category in a post
+excerpt:    "Moving from Scrum to Kanban using Kaizen"
+categories: ["agile"]
 tags:       ["agile", "lean", "kanban"]
 ---
 
@@ -53,7 +52,7 @@ We are also incredibly skilled at forgetting things; visual cues are great remin
 
 Here is an example of a project board:
 
-![Project board](http://leankit.com/kanban/why-use-kanban-boards/what-is-a-kanban-board-illustration.jpg "Kanban board")
+![Project board]({{ site.baseurl }}/img/kanban-wall.jpg)
 
 By visualising your value stream you can:
 
@@ -85,4 +84,4 @@ Remember, failures are another opportunity to learn for our next experiment!
 Before starting your Kaizen journey, gather measurements of your project to act as your baseline.
 We need a baseline to understand what impact we've had and validate whether the hypothesis was correct.
 
-In future posts I'll discuss some of the Kaizen moments I've witnessed on projects.
+In future posts I'll discuss some of the Kaizen moments I've witnessed on projects and the techniques used to measure.

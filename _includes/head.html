@@ -3,7 +3,7 @@
   <title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme.description }}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Open Graph tags-->
   <meta property="og:locale" content="{{ site.locale }}">
@@ -31,8 +31,8 @@
   <meta name="twitter:url" content="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
 
-	<!-- Google Author Rich Snippets -->
-	<link rel="author" href="//plus.google.com/+{{ site.author.googleplus }}">
+  <!-- Google Author Rich Snippets -->
+  <link rel="author" href="//plus.google.com/+{{ site.author.googleplus }}">
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ " /css/main.css " | prepend: site.baseurl }}">
@@ -71,4 +71,27 @@
     ga('send', 'pageview');
   </script>
   {% endif %}
+
+  <script type="text/javascript">
+    //<![CDATA[
+    (function() {
+      var shr = document.createElement('script');
+      shr.setAttribute('data-cfasync', 'false');
+      shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
+      shr.type = 'text/javascript';
+      shr.async = 'true';
+      shr.onload = shr.onreadystatechange = function() {
+        var rs = this.readyState;
+        if (rs && rs != 'complete' && rs != 'loaded') return;
+        var site_id = '57b0158993cbc4936dd89e23d990b801';
+        try {
+          Shareaholic.init(site_id);
+        } catch (e) {}
+      };
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(shr, s);
+    })();
+     //]]>
+  </script>
+
 </head>

@@ -5,12 +5,14 @@ layout: default
 
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
-    
+
     <p class="meta">
     {{ page.date | date: "%B %-d, %Y" }}
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
   </header>
+
+  <div class='shareaholic-canvas' data-app='share_buttons' data-app-id='15722376'></div>
 
   <section class="post-content">
     {{ content }}
@@ -22,5 +24,5 @@ layout: default
       {% include disqus.html %}
     </section>
   {% endif %}
-  
+
 </article>
