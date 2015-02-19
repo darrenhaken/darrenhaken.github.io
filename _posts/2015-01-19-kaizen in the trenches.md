@@ -5,6 +5,7 @@ description: Agile, Lean
 excerpt:    "Moving from Scrum to Kanban using Kaizen"
 categories: ["agile"]
 tags:       ["agile", "lean", "kanban"]
+comments: true
 ---
 
 Over the last few years I've worked with many teams and fully embraced the agile mindset.
