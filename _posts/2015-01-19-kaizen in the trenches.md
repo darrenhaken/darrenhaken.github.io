@@ -22,7 +22,7 @@ We should be asking questions like:
 * By delivering smaller chunks of software are we delivering value sooner?
 * What's slowing us down and blocking us?
 
-I started to think there must be more to agile than what Scrum originally promised.
+I started to think that Scrum may be foundation towards what the agile manifesto originally set out.
 
 ### Enter Kaizen
 A superstar team needs to be disruptive, continually evolving and acting quickly to identify waste.
