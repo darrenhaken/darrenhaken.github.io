@@ -1,10 +1,11 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
+# the subpath of your site, e.g. /blog/
+baseurl: ""
 url: "https://darrenhaken.github.io/"
 timezone: "Europe/London"
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_info:
   # Meta
   title: All things developer and lean
   avatar: avatar.png
@@ -61,7 +62,10 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
+
+# Plugins  
+gems: [jekyll-paginate]
