@@ -14,9 +14,8 @@ theme_info:
 
   # Header and footer text
   header_text: >
-     <p>Software developer, fitness mad, movie buff and coffee addict!</p>
-     <p>Works @ThoughtWorks</p>
-     <p>Blogging about technology and all things lean</p>
+     <p>Technical leader, agile coach and software engineer<br>
+     Interested in technical leadership, agile/lean, continuous delivery, <br> microservices and recently big data.</p>
   footer_text:
 
   # Icons
