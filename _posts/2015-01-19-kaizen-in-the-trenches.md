@@ -3,6 +3,8 @@
 title: "Kaizen 101 - From Scrum to Kanban"
 date: 2015-01-19 22:00:00 +0000
 tags: agile lean
+# sidebar: true
+layout: single
 ---
 
 Over the last few years I've worked with many teams and fully embraced the agile mindset.
