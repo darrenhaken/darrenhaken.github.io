@@ -4,6 +4,10 @@ baseurl: ""
 url: "https://darrenhaken.github.io/"
 timezone: "Europe/London"
 
+plugins_dir:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # THEME-SPECIFIC CONFIGURATION
 theme_info:
   # Meta
@@ -66,5 +70,5 @@ sass:
   sass_dir: _sass
   style: :compressed
 
-# Plugins  
+# Plugins
 gems: [jekyll-paginate]
