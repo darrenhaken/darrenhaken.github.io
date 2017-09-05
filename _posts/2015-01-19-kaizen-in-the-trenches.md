@@ -1,11 +1,8 @@
 ---
-layout: post
-title: Kaizen 101 - From Scrum to Kanban
-description: Agile, Lean
-excerpt:    "Moving from Scrum to Kanban using Kaizen"
-categories: ["agile"]
-tags:       ["agile", "lean", "kanban"]
-comments: true
+# layout: post
+title: "Kaizen 101 - From Scrum to Kanban"
+date: 2015-01-19 22:00:00 +0000
+tags: agile lean
 ---
 
 Over the last few years I've worked with many teams and fully embraced the agile mindset.

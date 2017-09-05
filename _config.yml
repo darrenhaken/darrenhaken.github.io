@@ -1,72 +1,130 @@
 # SITE CONFIGURATION
 # the subpath of your site, e.g. /blog/
-baseurl: ""
-url: "https://darrenhaken.github.io/"
-timezone: "Europe/London"
+baseurl:              ""
+url:                  "https://darrenhaken.github.io/"
+timezone:             "Europe/London"
 
 plugins:
+  - jekyll-admin
   - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+theme:                minimal-mistakes-jekyll
+
+locale:               "en"
+title:                "Darren Haken"
+title_separator:      "|"
+name:                 "Darren Haken"
+description:          "Software development and technical leadership."
+repository:           darrenhaken/darrenhaken.github.io
+teaser:               # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute:     200
+comments:
+  provider:           # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname:        # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid:
+    num_posts:        # 5 (default)
+    colorscheme:      # "light" (default), "dark"
+staticman:
+  allowedFields:      ['name', 'email', 'url', 'message']
+  branch:             "master"
+  commitMessage:      "New comment."
+  filename:           comment-{@timestamp}
+  format:             "yml"
+  moderation:         true
+  path:               "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  requiredFields:     ['name', 'email', 'message']
+  transforms:
+    email:            "md5"
+  generatedFields:
+    date:
+      type:           "date"
+      options:
+        format:       "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  path:               # blank (default) uses feed.xml
+
+defaults:
+  # _posts
+  - scope:
+      path:           ""
+      type:           posts
+    values:
+      layout:         single
+      author_profile: true
+      read_time:      true
+      comments:       true
+      share:          true
+      related:        true
 
 # THEME-SPECIFIC CONFIGURATION
-theme_info:
-  # Meta
-  title: Software development and technical leadership
-  avatar: avatar.png
-  gravatar: f0ab3db26bd3b23205db53754395894a
-  description: "Software developer, lean, agile, XP, devops, TDD, Kanban, devops, big data" # used by search engines
-
-  # Header and footer text
-  header_text: >
-     <p>Technical leader, agile coach and software engineer<br>
-     Interested in technical leadership, agile/lean, continuous delivery, <br> microservices and recently big data.</p>
-  footer_text:
-
-  # Icons
-  rss: false
-  email_address: darrenhaken@gmail.com
-  behance:
-  bitbucket:
-  dribbble:
-  facebook:
-  flickr:
-  github: "darrenhaken"
-  google_plus:
-  instagram:
-  linkedin: "https://www.linkedin.com/in/darrenhaken"
-  pinterest:
-  reddit:
-  soundcloud:
-  stack_exchange:  # full URL
-  steam:
-  tumblr:
-  twitter: "https://twitter.com/darrenhaken"
-  wordpress:
-  youtube:
-
-  # Scripts
-  google_analytics: "UA-58893620-1"
-  disqus_shortname: "darren-haken-software-blog.disqus.com"
-
-  # Localization strings
-  str_follow_on: "Follow on"
-  str_rss_follow: "Follow RSS feed"
-  str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
-  str_continue_reading: "Continue reading"
-
-  # Colors, typography and padding
-  # Open the "_sass > base" folder, and open "_variables.scss"
-
-# PAGINATION
-paginate: 5
-paginate_path: "blog/page:num"
-
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
+# theme_info:
+#   # Meta
+#   title:            Software development and technical leadership
+#   avatar:           avatar.png
+#   gravatar:         f0ab3db26bd3b23205db53754395894a
+#   description:      "Software developer, lean, agile, XP, devops, TDD, Kanban, devops, big data" # used by search engines
+#
+#   # Header and footer text
+#   header_text:      >
+#      <p>Technical leader, agile coach and software engineer<br>
+#      Interested in technical leadership, agile/lean, continuous delivery, <br> microservices and recently big data.</p>
+#   footer_text:
+#
+#   # Icons
+#   rss:              false
+#   email_address:    darrenhaken@gmail.com
+#   behance:
+#   bitbucket:
+#   dribbble:
+#   facebook:
+#   flickr:
+#   github:           "darrenhaken"
+#   google_plus:
+#   instagram:
+#   linkedin:         "https://www.linkedin.com/in/darrenhaken"
+#   pinterest:
+#   reddit:
+#   soundcloud:
+#   stack_exchange:   # full URL
+#   steam:
+#   tumblr:
+#   twitter:          "https://twitter.com/darrenhaken"
+#   wordpress:
+#   youtube:
+#
+#   # Scripts
+#   google_analytics: "UA-58893620-1"
+#   disqus_shortname: "darren-haken-software-blog.disqus.com"
+#
+#   # Localization strings
+#   str_follow_on:    "Follow on"
+#   str_rss_follow:   "Follow RSS feed"
+#   str_email:        "Email"
+#   str_next:         "Next"
+#   str_prev:         "Prev"
+#   str_continue_reading: "Continue reading"
+#
+#   # Colors, typography and padding
+#   # Open the "_sass > base" folder, and open "_variables.scss"
+#
+# # PAGINATION
+# paginate:           5
+# paginate_path:      "blog/page:num"
+#
+# # BUILD SETTINGS
+# markdown:           kramdown
+# highlighter:        rouge
+# sass:
+#   sass_dir:         _sass
+#   style:            :compressed
