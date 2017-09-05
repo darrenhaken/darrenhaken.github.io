@@ -4,17 +4,18 @@ baseurl: ""
 url: "https://darrenhaken.github.io/"
 timezone: "Europe/London"
 
-plugins_dir:
+plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # THEME-SPECIFIC CONFIGURATION
 theme_info:
   # Meta
-  title: All things developer and lean
+  title: Software development and technical leadership
   avatar: avatar.png
   gravatar: f0ab3db26bd3b23205db53754395894a
-  description: "Software developer, lean, agile, XP, devops, TDD, Kanban" # used by search engines
+  description: "Software developer, lean, agile, XP, devops, TDD, Kanban, devops, big data" # used by search engines
 
   # Header and footer text
   header_text: >
@@ -69,6 +70,3 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-
-# Plugins
-gems: [jekyll-paginate]
