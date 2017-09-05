@@ -1,44 +1,21 @@
-baseurl:              ""
-url:                  "https://darrenhaken.github.io/"
-timezone:             "Europe/London"
-
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate-v2
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-pagination:
-  # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
-
-# paginate: 5
-
-theme:                minimal-mistakes-jekyll
-
-locale:               "en"
-
-title:                "Darren Haken"
+title:                "Musings on software and technical leadership"
 title_separator:      "|"
 name:                 "Darren Haken"
 description:          "Software development and technical leadership."
+locale:               "en"
+baseurl:              ""
+url:                  "https://darrenhaken.github.io/"
+timezone:             "Europe/London"
 repository:           darrenhaken/darrenhaken.github.io
+
+theme:                minimal-mistakes-jekyll
 teaser:               # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute:     200
 comments:
-  provider:           # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider:           discus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname:        # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname:        darren-haken-software-blog.disqus.com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -66,7 +43,6 @@ atom_feed:
   path:               # blank (default) uses feed.xml
 
 defaults:
-  # _posts
   - scope:
       path:           ""
       type:           posts
@@ -79,13 +55,33 @@ defaults:
       related:        true
 
 author:
-  name   : "Darren Haken"
-  avatar : "/assets/images/darren_bio.jpg"
-  bio    : "Technical leader, love technology and building things"
-  email  : darrenhaken@gmail.com
-  github: darrenhaken
-  twitter: darrenhaken
-  uri    : "https://www.darrenhaken.com"
+  name:               "Darren Haken"
+  avatar:             "/assets/images/darren_bio.jpg"
+  bio:                "Technical leader, love technology and building things"
+  email:              darrenhaken@gmail.com
+  github:             darrenhaken
+  twitter:            darrenhaken
+  linkedin:           darrenhaken
+  uri:                "https://www.darrenhaken.com"
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled:            true
 
 # THEME-SPECIFIC CONFIGURATION
 # theme_info:
