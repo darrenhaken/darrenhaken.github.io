@@ -9,10 +9,11 @@ email: darrenhaken@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Musings about software development and technical leadership. Interested in devops, cloud, big data.
 url: "https://darrenhaken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/darren-blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: darrenhaken
 github_username:  darrenhaken
-repository:           darrenhaken/darren-blog
+linkedin_username: darrenhaken
+repository:           darrenhaken/darrenhaken.github.io
 teaser:               # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute:     200
