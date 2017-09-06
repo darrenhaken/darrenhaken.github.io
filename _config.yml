@@ -1,47 +1,46 @@
-title:                "Darren Haken"
-title_separator:      "|"
-name:                 "Darren Haken"
-description:          "Software development and technical leadership."
-locale:               "en"
-baseurl:              ""
-url:                  "https://darrenhaken.github.io/"
-timezone:             "Europe/London"
-repository:           darrenhaken/darrenhaken.github.io
-
-theme:                minimal-mistakes-jekyll
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Darren Haken
+name: "Darren Haken"
+email: darrenhaken@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Musings about software development and technical leadership. Interested in devops, cloud, big data.
+url: "https://darrenhaken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/darren-blog" # the subpath of your site, e.g. /blog
+twitter_username: darrenhaken
+github_username:  darrenhaken
+repository:           darrenhaken/darren-blog
 teaser:               # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute:     200
 comments:
-  provider:           discus # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider:           "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname:        darren-haken-software-blog.disqus.com # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    shortname:        "darren-haken-software-blog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  # discourse:
+  #   server # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
     num_posts:        # 5 (default)
     colorscheme:      # "light" (default), "dark"
-staticman:
-  allowedFields:      ['name', 'email', 'url', 'message']
-  branch:             "master"
-  commitMessage:      "New comment."
-  filename:           comment-{@timestamp}
-  format:             "yml"
-  moderation:         true
-  path:               "docs/_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
-  requiredFields:     ['name', 'email', 'message']
-  transforms:
-    email:            "md5"
-  generatedFields:
-    date:
-      type:           "date"
-      options:
-        format:       "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-atom_feed:
-  path:               # blank (default) uses feed.xml
 
+
+#Social and analytic settings
+twitter:
+  username: "darrenhaken"
+facebook:
+  app_id: ""
+  publisher: ""
+analytics:
+  provider: "google-universal"
+  google:
+    tracking_id: "UA-1234567-8"
+
+# Defaults for layouts
 defaults:
   - scope:
       path:           ""
@@ -54,6 +53,23 @@ defaults:
       share:          true
       related:        true
 
+# Pagination config
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: true
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+# Author settings
 author:
   name:               "Darren Haken"
   avatar:             "/assets/images/darren_bio.jpg"
@@ -64,83 +80,14 @@ author:
   linkedin:           darrenhaken
   uri:                "https://www.darrenhaken.com"
 
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate-v2
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jemoji
-
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-pagination:
-  # Site-wide kill switch, disabled here it doesn't run at all
-  enabled:            true
-
-# THEME-SPECIFIC CONFIGURATION
-# theme_info:
-#   # Meta
-#   title:            Software development and technical leadership
-#   avatar:           avatar.png
-#   gravatar:         f0ab3db26bd3b23205db53754395894a
-#   description:      "Software developer, lean, agile, XP, devops, TDD, Kanban, devops, big data" # used by search engines
-#
-#   # Header and footer text
-#   header_text:      >
-#      <p>Technical leader, agile coach and software engineer<br>
-#      Interested in technical leadership, agile/lean, continuous delivery, <br> microservices and recently big data.</p>
-#   footer_text:
-#
-#   # Icons
-#   rss:              false
-#   email_address:    darrenhaken@gmail.com
-#   behance:
-#   bitbucket:
-#   dribbble:
-#   facebook:
-#   flickr:
-#   github:           "darrenhaken"
-#   google_plus:
-#   instagram:
-#   linkedin:         "https://www.linkedin.com/in/darrenhaken"
-#   pinterest:
-#   reddit:
-#   soundcloud:
-#   stack_exchange:   # full URL
-#   steam:
-#   tumblr:
-#   twitter:          "https://twitter.com/darrenhaken"
-#   wordpress:
-#   youtube:
-#
-#   # Scripts
-#   google_analytics: "UA-58893620-1"
-#   disqus_shortname: "darren-haken-software-blog.disqus.com"
-#
-#   # Localization strings
-#   str_follow_on:    "Follow on"
-#   str_rss_follow:   "Follow RSS feed"
-#   str_email:        "Email"
-#   str_next:         "Next"
-#   str_prev:         "Prev"
-#   str_continue_reading: "Continue reading"
-#
-#   # Colors, typography and padding
-#   # Open the "_sass > base" folder, and open "_variables.scss"
-#
-# # PAGINATION
-# paginate:           5
-# paginate_path:      "blog/page:num"
-#
-# # BUILD SETTINGS
-# markdown:           kramdown
-# highlighter:        rouge
-# sass:
-#   sass_dir:         _sass
-#   style:            :compressed
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

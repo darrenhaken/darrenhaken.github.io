@@ -1,9 +1,13 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rake'
-gem 'jekyll'
+gem "jekyll", "3.5.2"
+
+# Jekyll theme
 gem "minimal-mistakes-jekyll"
 
+gem 'jgd'
+
+# If you have any plugins, put them here!
 group :jekyll_plugins do
    gem 'jekyll-feed'
    gem 'jekyll-seo-tag'
