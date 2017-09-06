@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Passionate technical leader, skilled in analysis, design, and development of enterprise and web applications. Working with organisations to change their software delivery using agile methodologies, test driven development, continuous delivery and other XP practices to help meet market demands and deliver high-quality software.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Excellent ability to communicate with customers and senior stakeholders; lead small, medium and large scale teams providing direction, mentoring and support on business and technical activities and issues.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Interested in technical leadership, software architecture, agile/lean, devops/the cloud, web development, big data and microservices.
