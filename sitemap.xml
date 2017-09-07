@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://darrenhaken.github.io/2015/01/19/kaizen-in-the-trenches.html</loc>
+<loc>https://darrenhaken.github.io/kaizen-in-the-trenches/</loc>
 <lastmod>2015-01-19T22:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://darrenhaken.github.io/404.html</loc>
+<loc>https://darrenhaken.github.io/404/</loc>
 </url>
 <url>
 <loc>https://darrenhaken.github.io/about/</loc>
+</url>
+<url>
+<loc>https://darrenhaken.github.io/tags/</loc>
+</url>
+<url>
+<loc>https://darrenhaken.github.io/tags/agile/</loc>
+</url>
+<url>
+<loc>https://darrenhaken.github.io/tags/lean/</loc>
 </url>
 <url>
 <loc>https://darrenhaken.github.io/</loc>
