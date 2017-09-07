@@ -2,30 +2,29 @@
 title:                Darren Haken
 name:                 "Darren Haken"
 email:                darrenhaken@gmail.com
-description:          > # this means to ignore newlines until "baseurl:"
-  Musings about software development and technical leadership. Interested in devops, cloud, big data.
+description:          "Musings about software development and technical leadership. Interested in devops, cloud, big data."
+
+repository:           darrenhaken/darrenhaken.github.io
 url:                  "https://darrenhaken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:              "" # the subpath of your site, e.g. /blog
+
 twitter_username:     darrenhaken
 github_username:      darrenhaken
 linkedin_username:    darrenhaken
-repository:           darrenhaken/darrenhaken.github.io
-teaser:               # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+
 words_per_minute:     200
+
 comments:
   provider:           "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname:        "darren-haken-software-blog" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  # discourse:
-  #   server # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid:
     num_posts:        # 5 (default)
     colorscheme:      # "light" (default), "dark"
 
-include: ["_pages"]
+include:              ["_pages"]
 
 #Social and analytic settings
 twitter:
@@ -33,10 +32,22 @@ twitter:
 facebook:
   app_id:             ""
   publisher:          ""
+google_analytics:     "UA-1234567-8"
 analytics:
   provider:           "google-universal"
   google:
     tracking_id:      "UA-1234567-8"
+
+# Author settings
+author:
+  name:               "Darren Haken"
+  avatar:             "/assets/images/darren_bio.jpg"
+  bio:                "Technical leader, love technology and building things"
+  email:              darrenhaken@gmail.com
+  github:             darrenhaken
+  twitter:            darrenhaken
+  linkedin:           darrenhaken
+  uri:                "https://www.darrenhaken.com"
 
 # Defaults for layouts
 defaults:
@@ -63,10 +74,23 @@ defaults:
 pagination:
   # Site-wide kill switch, disabled here it doesn't run at all
   enabled:            true
+  permalink:          "/page/:num/"
+  title:              ":title - Page :num of :max"
 
-# Build settings
+# Jekyll configuration
+permalink:            /:categories/:title/
 markdown:             kramdown
+highlighter:          rouge
 theme:                minimal-mistakes-jekyll
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 plugins:
   - jekyll-archives
   - jekyll-feed
@@ -77,16 +101,23 @@ plugins:
   - jekyll-typogrify
   - jemoji
 
-# Author settings
-author:
-  name:               "Darren Haken"
-  avatar:             "/assets/images/darren_bio.jpg"
-  bio:                "Technical leader, love technology and building things"
-  email:              darrenhaken@gmail.com
-  github:             darrenhaken
-  twitter:            darrenhaken
-  linkedin:           darrenhaken
-  uri:                "https://www.darrenhaken.com"
+#Archive settings
+category_archive:
+  type:               jekyll-archives
+  path:               /categories/
+tag_archive:
+  type:               jekyll-archives
+  path:               /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category:         archive-taxonomy
+    tag:              archive-taxonomy
+  permalinks:
+    category:         /categories/:name/
+    tag:              /tags/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

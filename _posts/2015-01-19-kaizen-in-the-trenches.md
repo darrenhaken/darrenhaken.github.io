@@ -3,7 +3,7 @@ title: Kaizen 101 - From Scrum to Kanban
 date: '2015-01-19 22:00:00 +0000'
 tags: agile lean kanban
 layout: single
-# categories: agile
+tags: agile lean
 ---
 
 Over the last few years I've worked with many teams and fully embraced the agile mindset. It's been a roller coaster of a journey but I have to say I've loved every minute of it!
