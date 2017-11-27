@@ -5,7 +5,7 @@ email:                darrenhaken@gmail.com
 description:          "Musings about software development and technical leadership. Interested in devops, cloud, big data."
 
 repository:           darrenhaken/darrenhaken.github.io
-url:                  "https://darrenhaken.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url:                  "https://darrenhaken.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:              "" # the subpath of your site, e.g. /blog
 
 twitter_username:     darrenhaken
