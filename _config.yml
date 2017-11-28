@@ -33,6 +33,7 @@ facebook:
   app_id:             ""
   publisher:          ""
 google_analytics:     "UA-58893620-1"
+google_site_verification: "L_8mxXs2V0A6hot0o48t9zeLqPBzUF4A2lGHdsw4fg8"
 analytics:
   provider:           "google-universal"
   google:
