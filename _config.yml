@@ -32,11 +32,11 @@ twitter:
 facebook:
   app_id:             ""
   publisher:          ""
-google_analytics:     "UA-1234567-8"
+google_analytics:     "UA-58893620-1"
 analytics:
   provider:           "google-universal"
   google:
-    tracking_id:      "UA-1234567-8"
+    tracking_id:      "UA-58893620-1"
 
 # Author settings
 author:
